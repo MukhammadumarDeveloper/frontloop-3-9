@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Loop 3 - Step 9</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/styles-mini.css" />
+</head>
+
+<body>
+   <div class="container">
+      <!-- header -->
+      <header class="header-wrapper">
+
+         <ol class="header-left">
+            <li class="header-left-items active-header-left-items">
+               <i class="material-icons header-icons">wb_sunny</i>
+               <span class="temperature">25 &#8451;</span>
+            </li>
+            <li class="header-left-items">
+               <i class="material-icons header-icons">wb_sunny</i>
+               <span class="week-day">tue</span>
+               <span class="temperature">25 &#8451;</span>
+            </li>
+            <li class="header-left-items">
+               <i class="material-icons header-icons">grain</i>
+               <span class="week-day">wed</span>
+               <span class="temperature">13 &#8451;</span>
+            </li>
+            <li class="header-left-items">
+               <i class="material-icons header-icons">wb_sunny</i>
+               <span class="week-day">thu</span>
+               <span class="temperature">22 &#8451;</span>
+            </li>
+         </ol>
+
+         <div class="header-right">
+            <div class="date-time">
+               <span>Monday</span>
+               <span>09 November</span>
+            </div>
+            <time datetime="2020-09-11" class="time">11:32</time>
+            <span class="day-format">am</span>
+         </div>
+
+      </header>
+      <main class="main-wrapper">
+         <ul class="channels-box">
+            <li class="channels-box-items active-channel"><button type="button">FOX</button></li>
+            <li class="channels-box-items"><button type="button">abs</button></li>
+            <li class="channels-box-items"><button type="button">National Geographic</button></li>
+            <li class="channels-box-items"><button type="button">CNN</button></li>
+            <li class="channels-box-items"><button type="button">Nickelodeon</button></li>
+         </ul>
+         <section class="channel-section-box">
+            <h1 class="visually-hidden">Channel about details of selected channels</h1>
+            <div class="channel-section-items">
+               <i class="material-icons film-icons">tv</i>
+               <div class="films-wrapper">
+                  <button class="films">
+                     <span class="films-img-wrapper">
+                        <img src="img/video-local-programming.jpg" alt="Film`s cover" width="150" height="85">
+                        <span class="films-overlay"></span>
+                     </span>
+                     <span class="films-time">6:00 am - 12:00 pm</span>
+                     <span class="channels-caption">local programming</span>
+                  </button>
+                  <button class="films">
+                     <span class="films-img-wrapper">
+                        <img src="img/video-family-guy.jpg" alt="Film `s cover" width="150" height="85">
+                        <span class="films-overlay"></span>
+                     </span>
+                     <span class="films-time">6:00 am - 12:00 pm</span>
+                     <span class="channels-caption">family guy</span>
+                  </button>
+                  <button class="films active-film">
+                     <span class="films-img-wrapper ">
+                        <img src="img/video-simpsons.jpg" alt="Film`s cover" width="150" height="85">
+                        <span class="films-overlay"></span>
+                     </span>
+                     <span class="films-time">6:00 am - 12:00 pm</span>
+                     <span class="channels-caption">the simpsons</span>
+                  </button>
+                  <button class="films">
+                     <span class="films-img-wrapper">
+                        <img src="img/video-futurama.jpg" alt="Film`s cover" width="150" height="85">
+                        <span class="films-overlay"></span>
+                     </span>
+                     <span class="films-time">6:00 am - 12:00 pm</span>
+                     <span class="channels-caption">futurama</span>
+                  </button>
+                  <button class="films">
+                     <span class="films-img-wrapper">
+                        <img src="img/video-american-dad.jpg" alt="Fil`s cover" width="150" height="85">
+                        <span class="films-overlay"></span>
+                     </span>
+                     <span class="films-time">6:00 am - 12:00 pm</span>
+                     <span class="channels-caption">american dad</span>
+                  </button>
+               </div>
+            </div>
+            <hr class="section-divider">
+            <div class="channel-section-items channel-section-items2">
+               <div class="music-sec-left">
+                  <i class="material-icons film-icons">music_note</i>
+                  <div class="audio-box">
+                     <div class="audio-box-top">
+                        <img src="img/music-with-you.jpg" alt="Music`s img" width="70" height="70">
+                        <div class="audio-box-top-txt">
+                           <span>I`m with you</span>
+                           <span>red hot chilli papers</span>
+                        </div><!-- audio-box-top-txt -->
+                     </div><!-- audio-box-top -->
+                     <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                     </audio>
+                  </div><!-- audio-box -->
+               </div><!-- music-sec-left -->
+               <div class="music-sec-right">
+                  <button class="music-boxes active-music-box">
+                     <span class="music-img-wrapper">
+                        <img src="img/music-with-you.jpg" alt="Music`s photo" width="95" height="95">
+                        <span class="music-overlay"></span>
+                     </span>
+                     <span class="music-box-caption">i`m with...</span>
+                  </button>
+                  <button class="music-boxes">
+                     <span class="music-img-wrapper">
+                        <img src="img/music-butter.jpg" alt="Music`s photo" width="95" height="95">
+                        <span class="music-overlay"></span>
+                     </span>
+                     <span class="music-box-caption">butter</span>
+                  </button>
+                  <button class="music-boxes">
+                     <span class="music-img-wrapper">
+                        <img src="img/music-back-together.jpg" alt="Music`s photo" width="95" height="95">
+                        <span class="music-overlay"></span>
+                     </span>
+                     <span class="music-box-caption">back To...</span>
+                  </button>
+                  <button class="music-boxes">
+                     <span class="music-img-wrapper">
+                        <img src="img/music-unwind.jpg" alt="Music`s photo" width="95" height="95">
+                        <span class="music-overlay "></span>
+                     </span>
+                     <span class="music-box-caption">unwind</span>
+                  </button>
+               </div>
+            </div><!-- channel-section-items -->
+         </section>
+      </main>
+   </div>
+
+</body>
+
+</html>
